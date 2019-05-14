@@ -1,0 +1,46 @@
+{
+  "_args": [
+    [
+      "scatterjs-core@2.7.17",
+      "E:\\web\\web\\biyuan_vue"
+    ]
+  ],
+  "_development": true,
+  "_from": "scatterjs-core@2.7.17",
+  "_id": "scatterjs-core@2.7.17",
+  "_inBundle": false,
+  "_integrity": "sha512-LKvg7nr2ViZgNyw7dzk5CbwDVz006PBFpJqKU1dx7fmMs9LmBov7gB60DFwLR9p3kirPWO2hon1TE/xe51pkFw==",
+  "_location": "/scatterjs-core",
+  "_phantomChildren": {
+    "async-limiter": "1.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "scatterjs-core@2.7.17",
+    "name": "scatterjs-core",
+    "escapedName": "scatterjs-core",
+    "rawSpec": "2.7.17",
+    "saveSpec": null,
+    "fetchSpec": "2.7.17"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/scatterjs-core/-/scatterjs-core-2.7.17.tgz",
+  "_spec": "2.7.17",
+  "_where": "E:\\web\\web\\biyuan_vue",
+  "dependencies": {
+    "create-hash": "^1.2.0",
+    "es6-promise": "^4.2.4",
+    "get-random-values": "^1.2.0",
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^6.1.0"
+  },
+  "description": "",
+  "gitHead": "81469083eb6527ecb71413888d3c8ec8cfc5ae8c",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "scatterjs-core",
+  "version": "2.7.17"
+}

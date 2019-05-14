@@ -1,0 +1,158 @@
+/* 移动端导航 */
+@media (max-width: 450px){
+    .navbar-brand{
+        height: 50px;
+        margin-top: 0;
+        /* margin-left: 18%; */
+        float: none;
+    }
+    .navbar .logo{
+        position: fixed;
+        right: 10px;
+    }
+    .navbar .brandlogo{
+        position: fixed;
+    }
+}
+@media (max-width: 770px){
+    .otherLanguage{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+}
+/* 导航条 */
+.navbar-brand>img{
+    display: inline-block;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-default{
+    background: #fff;
+    border: none;
+}
+.navbar .nav>li>a{
+    line-height: 70px;
+}
+.navbar-right .login, .loginOk{
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+}
+.navbar-right .language{
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+}
+.navbar-default .navbar-toggle{
+    margin: 33px 0;
+}
+.laguageA{
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .navbar-brand .brandlogo{
+        /* margin-top: 20px; */
+        display: inline-block;
+        height: 50px;
+    }
+    .navbar .navbar-header .navbar-toggle{
+        float: left;
+    }
+    .navbar-toggle{
+        float: left;
+    }
+    .navbar-brand{
+        height: 50px;
+        margin-top: 0;
+        margin-left: 3%;
+        float: none;
+    }
+    .language{
+        height: 50px;
+        margin-top: 25px;
+        /* float: right; */
+    }
+    .navbar .navbar-header .logo{
+        margin-top: 25px;
+        height: 50px;
+        float: right;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1200px){
+    .navbar-brand .brandlogo{
+        margin-top: 0px;
+        display: inline-block;
+    }
+}
+@media  (max-width: 848px){
+    .navbar-brand .brandlogo{
+        margin-top: 0px;
+        display: inline-block;
+    }
+}
+.loginOk{
+    width: 148px;
+    height: 50px;
+    background: url('../images/nav/login_bg.png') no-repeat;
+    text-align: center;
+    color: #fff;
+    line-height: 39px;
+}
+.loginOk:hover{
+    cursor: pointer;
+}
+.rightlogin{
+    position: relative;
+}
+.rightlogin .checklanguage{
+    display: inline-block;
+    position: relative;
+}
+.rightlogin img:hover{
+    cursor: pointer;
+}
+.otherLanguage{
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  padding-top: 53px;
+  line-height: 10px;
+}
+.otherLanguage img{
+    width: 50px;
+    height: 50px;
+}
+/* .otherLanguage{
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    top: 80px;
+} */
+.otherLanguage img{
+    width: 50px;
+    height: 50px;
+}
+.exitBox{
+    position: absolute;
+    width: 148px;
+    height: 100px;
+    top: 66px;
+    left: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: -11
+}
+.exitLogin{
+    color: #ed6471;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 50px;
+}
+.exitLogin:hover{
+    cursor: pointer;
+}

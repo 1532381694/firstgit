@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style:none;}
+
+#hero_outer{width:100%;height:100px;overflow:hidden;position:relative;-webkit-transform-origin: top left;transform: scale(1.7,1.4);}
+
+
+/* flip-counter */
+.flip-counter{position:absolute;top:40px;left:0px;}
+.flip-counter ul.cd{float:left;list-style-type:none !important;margin:0;padding:0;display: grid;}
+.flip-counter li{background:url('../images/digits_small.png') 0 0 no-repeat;}
+@media (-webkit-min-device-pixel-ratio: 2){
+  .flip-counter li{	background-size:120px 400px;}
+}
+.flip-counter li.date_separate{width:11px;height:40px;background:none;}
+.flip-counter li.t{background-position:0 0;width:30px;height:20px}
+.flip-counter li.b{background-position:0 0;width:30px;height:20px}

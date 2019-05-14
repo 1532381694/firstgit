@@ -1,0 +1,33 @@
+export default{
+    //邀请人
+    INVITER:"https://eoskingdom.io/api/app/invitationCode/bindingInvita",
+    //邀请人链接
+    INVITERLINK:'https://eoskingdom.io/#/?ref=',
+    // 分红平台数据
+    ABONUS:"https://eoskingdom.io/api/app/dividend/queryPlatformDividends",
+    //查询分红池
+    BONUSPOOL:"https://eoskingdom.io/api/app/dividend/queryDividends",
+    //腾讯
+    TX:'https://eoskingdom.io/dzgame/pkIndex.html?master=tx&timestamp=',
+    //亚马逊
+    YMX:'https://eoskingdom.io/dzgame/pkIndex.html?master=ymx&timestamp=',
+    //个人分红
+    PERSONALBONUS:"https://eoskingdom.io/api/app/dividend/queryAccountDividends",
+    //领取分红:
+    DIVIDENDSRECEIVED:"https://eoskingdom.io/api/app/dividend/receiveDividendsAccount",
+    //挖矿：
+    MINING:"http://eoskingdom.io/api/app/mined/queryMinedBL",
+    //排行榜
+    RANKLIST:'https://eospark.com/api/v2/tokens/magnate_rank?symbol=ekd&account=ekdtokenbank&size=100&amount_type=eosTotalBalance',
+    ICOTIME:"https://eoskingdom.io/api/app/ico/getIcoTime",
+    //EKD排行版
+    EKDPAIHANG:"https://eoskingdom.io/api/app/ranking/queryEkdRanking",
+    //用户访问记录
+    USERVISIT:"https://eoskingdom.io/api/app/uservisit/saveAccountVisit",
+    //公告
+    NOTICE:"https://eoskingdom.io/api/app/notice/listPage",
+    //切换语言图片
+    KR:"https://eoskingdom.io/EKD_KR.pdf",
+    CN:"https://eoskingdom.io/EKD_CN.pdf",
+    EN:"https://eoskingdom.io/EKD_EN.pdf"
+}
